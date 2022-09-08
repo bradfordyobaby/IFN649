@@ -1,4 +1,4 @@
-const int ledPin = 11; // Teensy 2.0 has the LED on pin 11
+const int ledPin = 13; // Teensy 2.0 has the LED on pin 11
 
 void setup() {  
   pinMode(ledPin, OUTPUT);
@@ -6,41 +6,41 @@ void setup() {
 void loop() {
   // Morse Code "S"
   digitalWrite(ledPin, HIGH);   
-  delay(250);                  
+  delay(200);                  
   digitalWrite(ledPin, LOW);    
-  delay(250);
+  delay(200);
   digitalWrite(ledPin, HIGH);   
-  delay(250);                  
+  delay(200);                  
   digitalWrite(ledPin, LOW);    
-  delay(250);
+  delay(200);
   digitalWrite(ledPin, HIGH);   
-  delay(250);                  
+  delay(200);                  
   digitalWrite(ledPin, LOW);    
   delay(1500);
   // Morse Code "O"
   digitalWrite(ledPin, HIGH);   
-  delay(1000);
+  delay(750);
   digitalWrite(ledPin, LOW);    
-  delay(1000);
+  delay(750);
   digitalWrite(ledPin, HIGH);   
-  delay(1000);
+  delay(750);
   digitalWrite(ledPin, LOW);    
-  delay(1000);
+  delay(750);
   digitalWrite(ledPin, HIGH);   
-  delay(1000);
+  delay(750);
   digitalWrite(ledPin, LOW);    
-  delay(1000);
+  delay(750);
   // Morse Code "S"
   digitalWrite(ledPin, HIGH);   
-  delay(250);                  
+  delay(200);                  
   digitalWrite(ledPin, LOW);    
-  delay(250);
+  delay(200);
   digitalWrite(ledPin, HIGH);   
-  delay(250);                  
+  delay(200);                  
   digitalWrite(ledPin, LOW);    
-  delay(250);
+  delay(200);
   digitalWrite(ledPin, HIGH);   
-  delay(250);                  
+  delay(200);                  
   digitalWrite(ledPin, LOW);    
-  delay(3000);                 
+  delay(2000);                 
 }
